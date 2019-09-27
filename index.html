@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angry Birds</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div class="contenido"> 
+        <div class="titulo">
+            <h1>Angry Birds</h1>
+        </div>
+        <div class="info">
+            <p id="info-ave" class="info-ave"></p>
+            <div id="info-cerdo" class="info-cerdo"></div>
+        </div>
+        <div class="images">
+            <div class="aves">
+                <img class="ave" src="img/ave.png" alt="ave1">
+                <img class="ave" src="img/ave.png" alt="ave2">
+                <img class="ave" src="img/ave.png" alt="ave3">
+            </div>
+            <div class="cerdos">
+                <img class="cerdo" src="img/pig.gif" alt="cerdito1">
+                <img class="cerdo" src="img/pig.gif" alt="cerdito2">
+                <img class="cerdo" src="img/pig.gif" alt="cerdito3">
+            </div>
+        </div>
+        <div class="botones">
+            <div class="btn-aves">
+                <div class="btn-ave">
+                    <p id="ave1"></p>
+                    <input id="btn-info1" class="btn" type="button" onclick="checkClick(this);" value="info">
+                    <input id="btn-fly1" class="btn" type="button" onclick="checkClick(this);" value="fly">
+                </div> 
+                <div class="btn-ave">
+                    <p id="ave2"></p>
+                    <input id="btn-info2" class="btn" type="button" onclick="checkClick(this);" value="info">
+                    <input id="btn-fly2" class="btn" type="button" onclick="checkClick(this);" value="fly">
+                </div>
+                <div class="btn-ave">
+                    <p id="ave3"></p>
+                    <input id="btn-info3" class="btn" type="button" onclick="checkClick(this);" value="info">
+                    <input id="btn-fly3" class="btn" type="button" onclick="checkClick(this);" value="fly">
+                </div>
+            </div>
+            <div class="btn-cerdos">
+                <div class="btn-cerdo">
+                    <p id="cerdo1"></p>
+                    <input id="btn-info4" class="btn" type="button" onclick="checkClick(this);" value="info">
+                    <input id="btn-death1" class="btn" type="button" onclick="checkClick(this);" value="dead">
+                </div>
+                <div class="btn-cerdo">
+                    <p id="cerdo2"></p>
+                    <input id="btn-info5" class="btn" type="button" onclick="checkClick(this);" value="info">
+                    <input id="btn-death2" class="btn" type="button" onclick="checkClick(this);" value="dead">
+                </div>
+                <div class="btn-cerdo">
+                    <p id="cerdo3"></p>
+                    <input id="btn-info6" class="btn" type="button" onclick="checkClick(this);" value="info">
+                    <input id="btn-death3" class="btn" type="button" onclick="checkClick(this);" value="dead">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
